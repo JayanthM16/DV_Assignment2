@@ -1,0 +1,31 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.table-container, .chart-container {
+    width: 48%;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+    border: 2px solid black;
+}
+
+th, td {
+    padding: 12px;
+    border: 1px solid black;
+}
+
+h2, h3 {
+    text-align: center;
+}
